@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <canvas id="bg-canvas"></canvas>
+    
+    <nav>
+      <div class="logo">PORTFOLIO</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="content">
+          <h1 class="glitch" data-text="Creative Developer">Creative Developer</h1>
+          <p class="subtitle">Crafting digital experiences in the void.</p>
+          <a href="#projects" class="cta-btn">View Work</a>
+        </div>
+      </section>
+
+      <section id="about" class="content-section">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-grid">
+            <div class="text-block">
+              <p>I am a passionate developer who bridges the gap between design and technology. With a focus on interactive 3D experiences and clean, modern aesthetics, I build websites that leave a lasting impression.</p>
+              <p>My toolkit includes HTML, CSS, JavaScript, Three.js, and React. I'm always exploring new ways to push the web forward.</p>
+            </div>
+            <div class="stats-block">
+              <div class="stat">
+                <span class="number">3+</span>
+                <span class="label">Years Exp</span>
+              </div>
+              <div class="stat">
+                <span class="number">20+</span>
+                <span class="label">Projects</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section">
+        <div class="container">
+          <h2>Selected Works</h2>
+          <div class="project-gallery">
+            <!-- Project items will be populated here or hardcoded -->
+            <div class="project-card">
+              <div class="card-content">
+                <h3>Project Alpha</h3>
+                <p>A 3D immersive experience built with Three.js.</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="card-content">
+                <h3>Neon Dashboard</h3>
+                <p>Futuristic UI design for data visualization.</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="card-content">
+                <h3>E-Commerce V2</h3>
+                <p>Modern shopping experience with seamless transitions.</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="content-section">
+        <div class="container">
+          <h2>Get In Touch</h2>
+          <p>Have a project in mind? Let's create something amazing together.</p>
+          <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
